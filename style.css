@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  background-color: #273c75;
+}
+h1{
+  margin-top: 50px;
+  font-size: 50px;
+  color: #fff;
+}
+footer{
+  color: #fff;
+}
+.drum-kit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 250px auto;
+  gap: 10px;
+}
+.drum{
+  width: 150px;
+  height: 100px;
+  border: 7px solid #130f40 ;
+  font-size: 50px;
+  color: #e84393;
+}
+.w{
+  background-image: url('./images/tom1.png');
+  background-size: cover;
+}
+.a{
+  background-image: url('./images/tom2.png');
+  background-size: cover;
+}
+.s{
+  background-image: url('./images/tom3.png');
+  background-size: cover;
+}
+.d{
+  background-image: url('./images/tom4.png');
+  background-size: cover;
+}
+.j{
+  background-image: url('./images/snare.png');
+  background-size: cover;
+}
+.k{
+  background-image: url('./images/crash.png');
+  background-size: cover;
+}
+.l{
+  background-image: url('./images/kick.png');
+  background-size: cover;
+}
